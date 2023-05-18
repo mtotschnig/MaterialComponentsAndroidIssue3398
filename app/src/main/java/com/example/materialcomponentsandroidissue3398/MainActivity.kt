@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
 
         binding.activity.setOnClickListener {
-            startActivity(Intent(this, DialogWhenLargeActivity::class.java))
+            startActivity(Intent(this, DialogActivity::class.java))
         }
         binding.dialogue.setOnClickListener {
             MessageDialogFragment().show(supportFragmentManager, "MESSAGE")

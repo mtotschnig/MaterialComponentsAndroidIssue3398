@@ -22,8 +22,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:theme="@style/Theme.Material3.DayNight.DialogWhenLarge"
-            android:name=".DialogWhenLargeActivity" />
+            android:theme="@style/Theme.Material3.DayNight.Dialog"
+            android:name=".DialogActivity" />
     </application>
 
 </manifest>
